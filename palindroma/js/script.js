@@ -28,6 +28,7 @@ let parolaContrario = '';
 
 // metodo con funzione
 
+// funzione per la parola al contrario
 function reverseWord(parolaUser) {
   let reverseString = "";
   for (let index = parolaUser.length - 1; index >= 0; index--) {
@@ -36,11 +37,11 @@ function reverseWord(parolaUser) {
   return reverseString;
 }
 
+// stampo le due parole
 console.log(parolaUser);
 console.log(reverseWord(parolaUser));
 
-
-// // se la parola dell'utente è uguale alla parola scritta al contrario allora
+// se la parola dell'utente è uguale alla parola scritta al contrario allora
 if (parolaUser == reverseWord(parolaUser)) {
   console.log('la parola è palindroma');
 } else { // altrimenti
