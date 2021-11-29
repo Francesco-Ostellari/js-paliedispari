@@ -6,7 +6,7 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 // metodo senza funzione
 // chiedo all'utente una parola
-let parolaUser = prompt ('inserisci una parola');
+let parolaUser = prompt ('inserisci una parola').toLocaleLowerCase();
 // dichiaro la variabile della parola scritta al contrario
 let parolaContrario = '';
 
